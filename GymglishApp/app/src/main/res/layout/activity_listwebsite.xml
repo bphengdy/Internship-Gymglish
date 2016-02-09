@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please select website"
+        android:id="@+id/tv_info"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Gymglish"
+        android:id="@+id/btn_website1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotoWebsite" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Frantastique"
+        android:id="@+id/btn_website2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotoWebsite" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Vatefaireconjuguer"
+        android:id="@+id/btn_website3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotoWebsite" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Rich Morning"
+        android:id="@+id/btn_website4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotoWebsite" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="The word of the month"
+        android:id="@+id/btn_website5"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotoWebsite" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="Work Sweet Work"
+        android:id="@+id/btn_website6"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotoWebsite" />
+</LinearLayout>
